@@ -74,4 +74,7 @@ angular.module(PKG.name + '.commons')
   })
   .directive('jsonEditor', function(reactDirective) {
     return reactDirective(window.CaskCommon.JSONEditor);
+  })
+  .directive('password', function(reactDirective){
+    return reactDirective(window.CaskCommon.Password);
   });

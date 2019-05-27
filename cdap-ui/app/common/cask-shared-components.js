@@ -72,6 +72,7 @@ var AppHeader = require('../cdap/components/AppHeader').default;
 var Markdown = require('../cdap/components/Markdown').MarkdownWithStyles;
 var CodeEditor = require('../cdap/components/CodeEditor').default;
 var JSONEditor = require('../cdap/components/CodeEditor/JSONEditor').default;
+var Password = require('../cdap/components/FormInputs/Password').default;
 export {
   Store,
   DataPrepHome,
@@ -124,4 +125,5 @@ export {
   Markdown,
   CodeEditor,
   JSONEditor,
+  Password,
 };
