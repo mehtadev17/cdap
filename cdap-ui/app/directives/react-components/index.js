@@ -77,4 +77,10 @@ angular.module(PKG.name + '.commons')
   })
   .directive('textBox', function(reactDirective) {
     return reactDirective(window.CaskCommon.TextBox);
+  })
+  .directive('csvWidget', function(reactDirective) {
+    return reactDirective(window.CaskCommon.CSVWidget);
+  })
+  .directive('keyValueWidget', function (reactDirective) {
+    return reactDirective(window.CaskCommon.KeyValueWidget);
   });
